@@ -1,0 +1,73 @@
+/* BookList.css */
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .container li {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s ease;
+  }
+  
+  .container li:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .container a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  
+  .container a:hover {
+    text-decoration: underline;
+  }
+  
+  .book_detail_link{
+    text-decoration: none;
+    color: black;
+  }
+   .book_detail_link span{
+    color: black;
+   }
+  @media (max-width: 600px) {
+    .container {
+      padding: 15px;
+    }
+  
+    .container h1 {
+      font-size: 1.5rem;
+    }
+  
+    .container li {
+      font-size: 1rem;
+      padding: 8px;
+    }
+  
+    .container a {
+      font-size: 1rem;
+    }
+  }
+  
