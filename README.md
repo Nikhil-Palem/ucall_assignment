@@ -10,12 +10,18 @@ Update book details: Users can update the information of an existing book.
 
 Delete a book: Users can remove a book from the list. 
 ## Technologies Used
-Backend: FastAPI
+Backend: FastAPI 
+
 Frontend: React
+
 Database: PostgreSQL
+
 Styling: CSS
 ## Setup Instructions
-Prerequisites
+#### Prerequisites
+
 Python 3.7+
+
 Node.js 14+
+
 PostgreSQL
