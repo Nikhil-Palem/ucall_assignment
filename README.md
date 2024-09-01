@@ -3,8 +3,11 @@ This project is a CRUD (Create, Read, Update, Delete) web application for managi
 
 ## Features
 Add a new book: Users can create a new book entry with details such as title, author, genre, and publication year.
+
 View all books: Users can view a list of all books in the database.
+
 Update book details: Users can update the information of an existing book.
+
 Delete a book: Users can remove a book from the list. 
 ## Technologies Used
 Backend: FastAPI
